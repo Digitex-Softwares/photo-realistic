@@ -1,14 +1,21 @@
 {
   "name": "telegram-photo-bot",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "A Telegram bot that receives photos uploaded from a web or Android app.",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.0",
-    "multer": "^1.4.5",
-    "dotenv": "^16.3.1",
-    "node-telegram-bot-api": "^0.64.0"
-  }
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "multer": "1.4.5-lts.1",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
